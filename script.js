@@ -1,5 +1,5 @@
 //complete this code
-class Animal {
+class Animal{
 	constructor(species){
 		this._species=species;
 	}
@@ -11,21 +11,21 @@ class Animal {
 	}
 }
 
-class Dog extends Animal {
-	constructor(species){
-		super(species);
-	}
-	bark(){
-		console.log("woof");
-	}
-}
-
-class Cat extends Animal {
+class Cat extends Animal{
 	constructor(species){
 		super(species);
 	}
 	purr(){
 		console.log("purr");
+	}
+}
+
+class Dog extends Animal{
+	constructor(species){
+		super(species);
+	}
+	bark(){
+		console.log("woof")
 	}
 }
 
